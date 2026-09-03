@@ -1,5 +1,10 @@
 # webimg: Smart Asset & Image Optimizer for Web/Social Media
 
+[![PyPI Version](https://img.shields.io/pypi/v/webimg-optimizer.svg?color=blue)](https://pypi.org/project/webimg-optimizer/)
+[![CI Status](https://github.com/adewanggar/webimg-optimizer/actions/workflows/workflow.yml/badge.svg)](https://github.com/adewanggar/webimg-optimizer/actions/workflows/workflow.yml)
+[![Python Versions](https://img.shields.io/pypi/pyversions/webimg-optimizer.svg)](https://pypi.org/project/webimg-optimizer/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A high-performance, modular Python CLI tool and daemon folder watcher built to optimize images (PNG, JPG, JPEG) into next-generation web formats (**WebP** and **AVIF**), automatically generate **responsive variants**, and **strip sensitive EXIF metadata** for privacy protection.
 
 Powered by **multiprocessing (`concurrent.futures.ProcessPoolExecutor`)** to maximize throughput on multi-core CPUs.
