@@ -18,3 +18,4 @@ if hasattr(sys.stderr, "reconfigure"):
 
 __version__ = "0.1.0"
 __app_name__ = "webimg"
+__author__ = "adewanggar"
