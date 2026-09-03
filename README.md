@@ -67,15 +67,19 @@ webimg-optimizer/
 ### 1. Prerequisites
 - Python 3.9 or higher.
 
-### 2. Install Dependencies
-Clone or navigate to the repository and install:
+### 2. Install Package
+Install from PyPI:
 
 ```bash
-# Option A: Install directly via pip editable mode (registers the 'webimg' CLI executable)
-pip install -e .
+pip install webimg-optimizer
+```
 
-# Option B: Install dependencies from requirements.txt
-pip install -r requirements.txt
+Or install from source repository in editable mode:
+
+```bash
+git clone https://github.com/adewanggar/webimg-optimizer.git
+cd webimg-optimizer
+pip install -e .
 ```
 
 > **Note for Windows Users**: If your Python Scripts directory is not in your system `PATH`, you can invoke the CLI using `python -m webimg.cli [COMMAND]` or add `%APPDATA%\Python\Python3xx\Scripts` to your environment variables.

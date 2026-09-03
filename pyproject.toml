@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "webimg"
+name = "webimg-optimizer"
 version = "0.1.0"
 description = "Smart Asset & Image Optimizer for Web/Social Media with CLI and Watcher mode"
 readme = "README.md"
-authors = [{ name = "WebImg Team" }]
+authors = [{ name = "Ade Wanggar" }]
 license = { text = "MIT" }
 requires-python = ">=3.9"
 dependencies = [
@@ -22,6 +22,11 @@ dependencies = [
 dev = [
     "pytest>=7.0.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/adewanggar/webimg-optimizer"
+Repository = "https://github.com/adewanggar/webimg-optimizer"
+Issues = "https://github.com/adewanggar/webimg-optimizer/issues"
 
 [project.scripts]
 webimg = "webimg.cli:app"
